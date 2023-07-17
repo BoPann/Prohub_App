@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'edu.seattleu.cpsc5021'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
+}
